@@ -10,7 +10,7 @@ def print_help():
 def main():
     choice = None # 1 for a complete download 2. for incrementally addition
     start_year = 2002
-    end_year = 2020
+    end_year = 2021
     assert(len(sys.argv) == 2)
     if(sys.argv[1] == 'update'):
         choice = 2
